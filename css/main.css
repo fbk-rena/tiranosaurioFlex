@@ -1,4 +1,97 @@
 *{
-    margin: 0;
-     background: black;   
+    width: 100%;
+    margin: 0px auto;
+    background: #000;
+    color: #F1DAC4;
 }
+
+.text-uppercase{
+    text-transform: uppercase;
+    
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+    text-align: center;
+}
+li, a, nav {
+    background-color: #550527;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+li:hover{
+    text-decoration: underline
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.header-inicio{
+    width: 35%;
+    display: flex;
+}
+.header-inicio img{
+    width: 20%;
+    background-color: #550527;
+}
+.header-inicio a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    text-decoration: none;
+}
+.header-nav{
+    width: 65%;
+}
+
+.img-container{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    flex-direction: row;
+}
+.img-rex{
+    width: 20%;
+    display: flex;
+}
+
+.mid-nav{
+    width: 75%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#articulos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+article{
+    width: 47%;
+    display: flex
+    padding: 5px
+}
+h2{
+    padding: 25px;
+    color: #550527;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+article p{
+    max-width: 95%;
+}
+    
